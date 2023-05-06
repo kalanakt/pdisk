@@ -10,7 +10,7 @@
         <a href=""><img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/kalanakt/pdisk?logo=files&logoColor=f72585"></a>
         <a href="https://github.com/kalanakt/pdisk" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/kalanakt/pdisk?color=8eecf5&logo=anaconda&logoColor=06d6a0"></a>
         <a href="https://github.com/kalanakt/pdisk" target="_blank"><img alt="GitHub" src="https://img.shields.io/github/license/kalanakt/pdisk?logo=adguard&logoColor=390099"></a>
-        <a href="https://github.com/kalanakt/pdisk" target="_blank"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/gramscript/gramscript?color=90e0ef&logoColor=ff4d6d"></a>
+        <a href="https://github.com/kalanakt/pdisk" target="_blank"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kalanakt/pdisk?color=90e0ef&logoColor=ff4d6d"></a>
         <a href="https://github.com/kalanakt/pdisk"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kalanakt/pdisk?logo=electron&logoColor=89fc00"></a>
         <a href="https://pypi.org/project/pdisk/"><img alt="PyPI" src="https://img.shields.io/pypi/v/pdisk?logo=adguard&logoColor=89fc00"></a>
         <a href="https://github.com/kalanakt/pdisk"><img alt="GitHub" src="https://img.shields.io/github/license/kalanakt/pdisk?logo=adguard&logoColor=89fc00"></a>
