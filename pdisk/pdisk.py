@@ -125,9 +125,8 @@ class Pdisk:
         if data["msg"] != "OK":
             raise Exception(f"Failed to retrieve file list: {data['msg']}")
 
-        files = []
-        for file_data in data["result"]["files"]:
-            files.append(File(
+        return [
+            File(
                 file_data["name"],
                 file_data["file_code"],
                 file_data["downloads"],
@@ -136,9 +135,10 @@ class Pdisk:
                 file_data["size"],
                 file_data["link"],
                 file_data["fld_id"],
-                file_data["uploaded"]
-            ))
-        return files
+                file_data["uploaded"],
+            )
+            for file_data in data["result"]["files"]
+        ]
     
     async def rename_file(self, file_code: str, new_name: str) -> bool:
         isLink = await self.is_pdisk_link(file_code)
@@ -228,9 +228,7 @@ class Pdisk:
     @staticmethod
     async def is_pdisk_link(link:str) -> bool:
         domain = urlparse(link).netloc
-        if 'pdisk.pro' in domain:
-            return True
-        return False
+        return 'pdisk.pro' in domain
     
     @staticmethod
     async def extract_file_code(link:str) -> bool:
