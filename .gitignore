@@ -19,3 +19,4 @@ share/python-wheels/
 MANIFEST
 .idea/
 .vscode/
+.env
