@@ -22,7 +22,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['requests', 'urllib'],
+    install_requires=['requests'],
     url="https://github.com/kalanakt/pdisk",
     keywords=['python', 'pdisk', 'earn money '],
     classifiers=[
